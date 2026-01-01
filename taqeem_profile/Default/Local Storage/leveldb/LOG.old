@@ -1,6 +1,0 @@
-2025/12/30-15:44:46.507 3434 Reusing MANIFEST C:\Users\HP\Desktop\Spark\taqeem-scraper\taqeem_profile\Default\Local Storage\leveldb/MANIFEST-000001
-2025/12/30-15:44:46.520 3434 Recovering log #3
-2025/12/30-15:44:46.528 3434 Reusing old log C:\Users\HP\Desktop\Spark\taqeem-scraper\taqeem_profile\Default\Local Storage\leveldb/000003.log 
-2025/12/30-15:50:46.957 1238 Level-0 table #5: started
-2025/12/30-15:50:46.969 1238 Level-0 table #5: 7832 bytes OK
-2025/12/30-15:50:46.976 1238 Delete type=0 #3
