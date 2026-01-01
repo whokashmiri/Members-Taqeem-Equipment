@@ -1,0 +1,34 @@
+{
+   "action": {
+      "default_icon": "icon32.png",
+      "default_popup": "popup.html"
+   },
+   "author": "Chartered Information Systems Pvt. Ltd",
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "content.js" ],
+      "matches": [ "*://*/*", "file:///*" ]
+   } ],
+   "content_security_policy": {
+      "extension_pages": "default-src 'none'; script-src-elem 'self'; style-src 'sha256-uLwQTV1tPwb9YVsJyNd7aW0N2K5Q81CuSbjDdsEm2lQ='"
+   },
+   "description": "Digital Signature of eReturns, PDF & Web User Auth, RSA Encryption/Decryption, Certificate Enrollment/Download on Smartcard.",
+   "icons": {
+      "128": "icon128.png",
+      "32": "icon32.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxOQ+TmvrkQgxZbKu7AKkyOda3j+flkyuuAc0Mtz0Zd7kzgru1zflq3m7J/gSIxhZnzDS/ZKSPd5MjL1TpSLtniv+1u39kUr2ZYxvO6vTWDYRJiUgXR8+HjNwtitRDBj56NsMgpXa96izuKrRnlXaAuq2Ydqb9Uw34KK70k7Vrr7bBdnQwB2W/zbufAIN24CtxMGkA8nJDAOHGoPOfC/rifZh8oFfKv3gUnnAMtsBXvklmRqOJA4nTMp/pmIDzFNV7nkHd8dtaPSgZwyNDIOrHRr1jtud/oND3dZu+95bYekr8250Kq4XaGsIAnK3BRPOjpoK/cXUsaJz3GkvbFfF8QIDAQAB",
+   "manifest_version": 3,
+   "name": "Signer.Digital Digital Signature, PKI",
+   "permissions": [ "nativeMessaging" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "5.1.2",
+   "web_accessible_resources": [ {
+      "matches": [ "*://*/*", "file:///*" ],
+      "resources": [ "sdscript.js", "icon32.png", "icon_trash.svg", "sdscript.js", "SdHtmlPage.html", "sdstyle.css" ]
+   } ]
+}
